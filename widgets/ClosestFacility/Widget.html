@@ -1,0 +1,60 @@
+<div>
+	<table>
+        <tr>
+            <td class="col1">Indique el punto de partida:</td>
+            <td>
+                <img id="btnDrawEvent" src="widgets/ClosestFacility/images/w_addstart.png" title="Añada un punto de partida en el mapa"
+                    width="20" height="20" style="vertical-align:middle; cursor:pointer;"/>
+                <img id="btnDrawBarrier" src="widgets/ClosestFacility/images/i_draw_line.png" title="Añada incidentes/barreras de trafico"
+                    width="20" height="20" style="vertical-align:middle; cursor:pointer;"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="col1">Número de instalaziones a encontrar:</td>
+            <td>
+                <select id="numFacilities">
+                    <option value="1" selected="selected">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="col1">
+                <input type="checkbox" id="chkLimitTravelTime" style="vertical-align:middle;"/>
+                <label for="chkLimitTravelTime" title="Check to limit the travel time allowed in the solution">Tiempo máximo de viaje (minutos):</label>
+            </td>
+            <td><input id="numMaxTravelTime" disabled="disabled" type="number" value="10" step="5" min="5" max="300"
+                    onfocus="this.oldValue = this.value;"/>
+						</td>
+        </tr>
+
+        <tr>
+            <td class="col1" style="vertical-align:bottom;">Orden de las rutas:</td>
+            <td>
+                <table>
+                    <tr id="trRankNumbers" style="horizonal-align:middle;">
+                    </tr>
+
+                    <tr id="trRankColors">
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="col1">
+                <button id="btnSolve" disabled="disabled" style="vertical-align:middle;" title="Resolver y mostrar los resultados">Resolver</button>
+                <div id="busyIndicator" style="vertical-align:middle; visibility:visible; display:inline-block; height:50px; width:50px;"></div>
+            </td>
+            <td>
+                <button id="btnClear" title="Limpiar todas las rutas y barreras en pantalla">Limpiar</button>
+            </td>
+        </tr>
+
+    </table>
+
+</div>

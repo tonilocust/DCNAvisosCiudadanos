@@ -1,0 +1,189 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "stack",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "activeItemIndex": 0,
+        "height": 100.00000000000003,
+        "content": [
+          {
+            "type": "component",
+            "isClosable": true,
+            "componentName": "jimu grid",
+            "componentState": {
+              "id": "23005011579825885-2"
+            },
+            "reorderEnabled": true,
+            "title": "jimu grid",
+            "id": "23005011579825885-2"
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "23005011579825885-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "23005011579825885-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "pie",
+        "categoryField": "que_dotaci_n_publica_le_parece_",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#5d9cd3",
+                  "#a5a5a5",
+                  "#4673c2",
+                  "#285f8f",
+                  "#636363",
+                  "#274577"
+                ]
+              },
+              "name": "pie~not-field",
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "series",
+          "customColor": {
+            "categories": [
+              {
+                "uniqueID": "09705589924990266",
+                "text": "Civica Social",
+                "label": "Civica Social",
+                "color": "#c8501d",
+                "id": "civica_social"
+              },
+              {
+                "uniqueID": "0848090343499206",
+                "text": "Deportiva",
+                "label": "Deportiva",
+                "color": "#2db7c6",
+                "id": "deportiva"
+              },
+              {
+                "uniqueID": "5190115616194011",
+                "text": "Educacional",
+                "label": "Educacional",
+                "color": "#c4eef6",
+                "id": "educacional"
+              },
+              {
+                "uniqueID": "3278799962795593",
+                "text": "Salud",
+                "label": "Salud",
+                "color": "#68d2e0",
+                "id": "salud"
+              }
+            ],
+            "others": [
+              {
+                "uniqueID": "014664391498404594",
+                "text": "Null",
+                "label": "Null",
+                "color": "#808080",
+                "id": "null"
+              },
+              {
+                "uniqueID": "499807260867871",
+                "text": "Others",
+                "label": "Others",
+                "color": "#808080",
+                "id": "others"
+              }
+            ]
+          }
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "dataLabel": {
+          "show": true,
+          "textStyle": {
+            "color": "#808080",
+            "fontSize": 10
+          }
+        },
+        "innerRadius": 0
+      }
+    },
+    {
+      "id": "23005011579825885-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "pie",
+  "wid": "23005011579825885",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "EncuenstaCiudadana",
+    "layerId": "survey123_27093cc648bf44bfbaf92d6661cdb6d5_6540",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "stack",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "activeItemIndex": 0,
+        "height": 100.00000000000003,
+        "content": [
+          {
+            "type": "component",
+            "isClosable": true,
+            "componentName": "jimu grid",
+            "componentState": {
+              "id": "06369997690806306-2"
+            },
+            "reorderEnabled": true,
+            "title": "jimu grid",
+            "id": "06369997690806306-2"
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "06369997690806306-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "06369997690806306-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "pie",
+        "categoryField": "huellas_edificaciones1_csv_Us_1",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#5d9cd3",
+                  "#a5a5a5",
+                  "#4673c2",
+                  "#285f8f",
+                  "#636363",
+                  "#274577"
+                ]
+              },
+              "name": "pie~not-field",
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "series",
+          "customColor": {
+            "categories": [
+              {
+                "uniqueID": "5887261506769297",
+                "text": "Civico-social",
+                "label": "Civico-social",
+                "color": "#087e92",
+                "id": "Civico-social"
+              },
+              {
+                "uniqueID": "3777358587403161",
+                "text": "Deportivo",
+                "label": "Deportivo",
+                "color": "#47bcf5",
+                "id": "Deportivo"
+              },
+              {
+                "uniqueID": "6835605320377769",
+                "text": "Educativo",
+                "label": "Educativo",
+                "color": "#fbe66a",
+                "id": "Educativo"
+              },
+              {
+                "uniqueID": "8661800715836103",
+                "text": "Equipamiento privado",
+                "label": "Equipamiento privado",
+                "color": "#f29157",
+                "id": "Equipamiento privado"
+              },
+              {
+                "uniqueID": "5115209751294918",
+                "text": "Intercambiadores",
+                "label": "Intercambiadores",
+                "color": "#c8501d",
+                "id": "Intercambiadores"
+              }
+            ],
+            "others": [
+              {
+                "uniqueID": "23831503200365844",
+                "text": "Null",
+                "label": "Null",
+                "color": "#808080",
+                "id": "null"
+              },
+              {
+                "uniqueID": "5339527387409413",
+                "text": "Others",
+                "label": "Others",
+                "color": "#808080",
+                "id": "others"
+              }
+            ]
+          }
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "dataLabel": {
+          "show": true,
+          "textStyle": {
+            "color": "#696969",
+            "fontSize": 10
+          }
+        },
+        "innerRadius": 45
+      }
+    },
+    {
+      "id": "06369997690806306-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "donut",
+  "wid": "06369997690806306",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Edificios",
+    "layerId": "PropuestaCN01_VD_WFL1_7145",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}

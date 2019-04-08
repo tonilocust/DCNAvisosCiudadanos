@@ -1,0 +1,46 @@
+.col1 {
+    margin-right: 40px;
+    font-size: 15px;
+    color: black;
+}
+
+.label{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+/* .jimu-on-screen-widget-panel>.jimu-panel-title>.title-label{
+  width: 20%;
+  padding: 50px;
+} */
+
+/* .jimu-main-background{
+  width: 30px;
+  padding: 30px; */
+}
+
+/* .jimu-panel-content{
+  width: 30px;
+  padding: 30px;
+} */
+/*
+.jimu-panel{
+  width: 30px;
+  padding: 30px;
+} */
+/* .title-label.jimu-vcenter-text.jimu-float-leading.jimu-leading-padding1{
+  text-align: center; */
+}
+/* .jimu-leading-padding1{
+    text-align: center;
+} */
+/*
+.dojoxResizeHandle.dojoxResizeNW{
+  padding: 20%;
+} */
+/* 
+.jimu-panel.jimu-on-screen-widget-panel.jimu-main-background{
+  width: 30px;
+  padding: 30px;
+} */

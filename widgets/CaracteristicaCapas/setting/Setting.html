@@ -1,0 +1,35 @@
+<div>
+    <br><br>
+    <div>  Este widget permite al usuario introducir la URL de un servicio (debe ser de tipo polígono)
+       y elegir qué campos mostrar con su correspondiente etiqueta en un popup que se abrirá automáticamente al pasar por encima de cada entidad </div><br><br>
+    <div>Introduce la URL del servicio: <br><br>
+        <input
+            type="text"
+            data-dojo-type="dijit/form/ValidationTextBox"
+            required="true"
+            placeHolder="https://localhost/server/rest/services/pruebas/prueba190319/MapServer"
+
+            data-dojo-attach-point="app_id"
+            data-dojo-props='style:{width:"800px"}'
+            style="width:800px"
+            id="urlLayer"
+            value = "https://localhost/server/rest/services/pruebas/prueba190319/MapServer/0"
+          >
+        <input
+            type="button"
+            id="btnValidate"
+            data-dojo-attach-event="onclick:validateURL" value="Validar"
+        >
+    </div><br><br>
+    <div id="showField" style="display:none;">
+        Campos a mostrar:
+    </div>
+    <div id="showList">
+    </div><br>
+    <div>
+        <input type="button" id="addfield" data-dojo-attach-event="onclick:addFields" value="Añadir campo" style="display:none;">
+    </div>
+    <div style="display:none;">
+        <strong>Contador: </strong><input id="contador" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point="count" value=1>
+    </div>
+</div>

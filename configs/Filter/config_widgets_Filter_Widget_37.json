@@ -1,0 +1,58 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": false,
+  "zoomto": true,
+  "allowCustom": false,
+  "filters": [
+    {
+      "layerId": "survey123_27093cc648bf44bfbaf92d6661cdb6d5_6540",
+      "url": "https://services8.arcgis.com/BtkRLT3YBKaVGV3g/arcgis/rest/services/survey123_27093cc648bf44bfbaf92d6661cdb6d5/FeatureServer/0",
+      "name": "EncuenstaCiudadana",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "vota_la_propuesta_mas_valorada_",
+              "label": "vota_la_propuesta_mas_valorada_",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": "propuesta_urbanistica_1"
+            },
+            "interactiveObj": {
+              "prompt": "Vota la Propuesta mas valorada por ti is",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(vota_la_propuesta_mas_valorada_) = 'PROPUESTA_URBANISTICA_1'",
+            "expr": "UPPER(vota_la_propuesta_mas_valorada_) = 'PROPUESTA_URBANISTICA_1'"
+          }
+        ],
+        "expr": "UPPER(vota_la_propuesta_mas_valorada_) = 'PROPUESTA_URBANISTICA_1'",
+        "displaySQL": "UPPER(vota_la_propuesta_mas_valorada_) = 'PROPUESTA_URBANISTICA_1'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": true,
+      "collapse": false,
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 10,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Shapes/BluePin2LargeB.png",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADImlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MkRDRTlCMkQzMzgxMUUwQUU5NUVFMEYwMTY0NzUwNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MkRDRTlCM0QzMzgxMUUwQUU5NUVFMEYwMTY0NzUwNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkyRENFOUIwRDMzODExRTBBRTk1RUUwRjAxNjQ3NTA1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkyRENFOUIxRDMzODExRTBBRTk1RUUwRjAxNjQ3NTA1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQg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",
+        "contentType": "image/png",
+        "width": 25.5,
+        "height": 25.5
+      }
+    }
+  ]
+}

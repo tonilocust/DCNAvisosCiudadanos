@@ -1,0 +1,206 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 50,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "9889179304204947-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "9889179304204947-3"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "height": 50,
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "id": "9889179304204947-4",
+                "type": "component",
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "9889179304204947-4"
+                },
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "jimu grid"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "9889179304204947-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "9889179304204947-2",
+      "type": "image",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        }
+      }
+    },
+    {
+      "id": "9889179304204947-3",
+      "type": "number",
+      "visible": true,
+      "config": {
+        "indicators": [
+          {
+            "value": [
+              2657313
+            ],
+            "operator": "greater",
+            "valueColor": "#dc143c",
+            "iconInfo": {
+              "color": "#49B4CB",
+              "icon": "icon-wrong",
+              "placement": "left"
+            },
+            "uniqueID": "0381126097761042"
+          },
+          {
+            "value": [
+              2657313
+            ],
+            "operator": "smaller",
+            "valueColor": "#2b4b6d",
+            "iconInfo": {
+              "color": "#49B4CB",
+              "icon": "icon-right",
+              "placement": "left"
+            },
+            "uniqueID": "05987143095621228"
+          }
+        ],
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": "36",
+          "textColor": "#2b4b6d"
+        },
+        "dataFormat": {
+          "unit": "thousand",
+          "decimalPlaces": 0,
+          "digitSeparator": true,
+          "prefix": "",
+          "suffix": ""
+        },
+        "statistics": [
+          {
+            "type": "value",
+            "config": {
+              "type": "stat",
+              "value": {
+                "type": "sum",
+                "field": "Shape__Area"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "9889179304204947-4",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": "12",
+          "textColor": "#282828"
+        },
+        "text": "Plan Gral. de Ordenación Urbana"
+      }
+    }
+  ],
+  "name": "number",
+  "wid": "9889179304204947",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Manzanas",
+    "layerId": "PropuestaCN01_VD_WFL1_4088",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}
